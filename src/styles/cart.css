@@ -1,0 +1,28 @@
+.cart {
+	background-color: white;
+	width: 20em;
+	height: fit-content;
+	padding-inline: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1em;
+	border-radius: 1em;
+	padding-block: 0.5em;
+	margin-inline: auto;
+}
+
+.cart .cart-header {
+	color: var(--Red);
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.cart ol {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}

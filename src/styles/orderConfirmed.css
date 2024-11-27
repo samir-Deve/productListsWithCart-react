@@ -1,0 +1,104 @@
+
+.wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: hsla(0, 0%, 0%, 0.337);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	background-color: white;
+	width: 20em;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding-inline: 1em;
+}
+
+.header span, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+.header p {
+	color: hsl(7, 20%, 60%);
+}
+
+.items-cont {
+	background-color: hsl(13, 31%, 94%);
+	border-radius: 0.5em;
+	padding: 1em;
+	margin-top: 2em;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}
+
+.item-container {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.item-container .item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.1em solid  hsla(6, 20%, 60%, 0.228);
+	padding-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+.items-total-price-cont {
+	display: flex;
+	justify-content: space-between;
+}
+
+.items-total-price-cont .items-total-price {
+	font-weight: 600;
+}
+
+.item-container .item .left-part {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+
+.item-container .item .left-part .name {
+	font-size: 0.9em;
+}
+
+.item-container .item .left-part .quantity-price {
+	display: flex;
+	gap: 0.5em;
+}
+
+.item-container .item .left-part .quantity-price .quantity {
+	color: hsl(14, 86%, 42%);
+}
+
+.item-container .item .left-part img {
+	width: 3em;
+	border-radius: 0.1em;
+}
+
+.new-order {
+	background-color: hsl(14, 86%, 42%);
+	width: 100%;
+	letter-spacing: 0.1em;
+	font-weight: 550;
+	padding: 1em;
+	color: white;
+	border: none;
+	border-radius: 0.5em;
+	margin-top: 1em;
+	cursor: pointer;
+}

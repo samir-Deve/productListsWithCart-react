@@ -1,0 +1,17 @@
+
+/* styles */
+.total-order-cont {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.total-order-cont .total-order-price {
+	font-size: 1.5em;
+	color: hsl(14, 65%, 9%);
+}
+
+.total-order-cont .total-order-text {
+	color: hsl(12, 20%, 44%);
+}

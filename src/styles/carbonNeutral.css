@@ -1,0 +1,11 @@
+.carbon-neutral-cont {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5em;
+	width: 100%;
+	border-radius: 1em;
+	background-color:  hsl(13, 31%, 94%);
+	padding-inline: 0.2em;
+	padding-block: 1em;
+}

@@ -1,0 +1,12 @@
+.confirm-order-btn {
+	border: none;
+	text-align: center;
+	padding-block: 1em;
+	width: 100%;
+	border-radius: 1em;
+	background-color: hsl(14, 86%, 42%);
+	color: white;
+	font-weight: 550;
+	letter-spacing: 0.050em;
+	cursor: pointer;
+}
